@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="541.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
+    <children>
+      <Pane layoutX="110.0" layoutY="4.0">
+         <children>
+            <ImageView fitHeight="547.0" fitWidth="561.0" layoutX="-54.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Foto%20de%20marcos%20silva.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="183.0" layoutY="506.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Abir Caixa" />
+            <MenuButton layoutX="178.0" layoutY="14.0" mnemonicParsing="false" text="Minha Conta">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Dados Pessoais" />
+                <MenuItem mnemonicParsing="false" text="Historico de trabalho" />
+              </items>
+            </MenuButton>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
